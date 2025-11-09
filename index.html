@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" 
+    integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>David Felix — Web Developer & Designer</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts for a more professional look -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Header section start -->
+
+    <header>
+        <nav>
+            <div class="logo">
+                <h1>DWD</h1>
+            </div>
+            <button class="menu-toggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#service">Services</a></li>
+                <li><a href="#home">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <a class="btn" href="https://www.youtube.com/@CeruleanHaven" target="_blank">Subscribe</a>
+        </nav>
+    </header>
+
+    <!-- nav bar end here -->
+
+    <!-- top hero section here -->
+
+    <section class="top-container" id="home">
+        <div class="box">
+            <div class="left-box">
+                <h1>Hi — I'm David <span>Felix</span></h1>
+                <p class="title">Front-end Web Developer & UI Designer</p>
+                <p class="head-text">
+                    I build fast, accessible, and user-focused websites and interfaces that help small businesses
+                    and startups convert visitors into customers. I focus on performance, responsive design and
+                    clear UX.
+                </p>
+
+                <div class="hero-cta">
+                    <a class="btn hire" href="mailto:felixdavid869@gmail.com">Hire Me</a>
+                    <form class="newsletter" action="mailto:felixdavid869@gmail.com" method="post" enctype="text/plain">
+                        <input type="email" name="email" placeholder="Your email" aria-label="Your email">
+                        <button class="btn small" type="submit">Join 50+ clients</button>
+                    </form>
+                </div>
+
+                <p class="social-proof">Trusted by 50+ clients worldwide • Avg. project delivery: 2–4 weeks</p>
+            </div>
+            <div class="right-box">
+                <img src="images/a1.jpg" alt="David Felix portrait">
+            </div>
+        </div>
+    </section>
+    <!-- section ends here -->
+
+    <!-- about section start here -->
+
+    <section class="about-container" id="about">
+        <h2 class="head-about">About <span>Me</span></h2>
+        <div class="lining"></div>
+        <div class="about-box">
+            <div class="left-about">
+                <div class="profile-card">
+                    <img src="images/a2.jpg" alt="David Felix portrait">
+                    <div class="card-info">
+                        <h4>David Felix</h4>
+                        <p>Front-end Developer</p>
+                    </div>
+                </div>
+            </div>
+            <div class="right-about">
+                <h2 class="right-h1">About David <span>Felix</span></h2>
+                <div class="lining about-lining"></div>
+                <p class="right-text">
+                    I'm a front-end developer focused on creating performant, accessible, and beautiful user
+                    experiences. I specialize in responsive layouts, component-driven development and clean
+                    interactions. I partner with startups and businesses to turn ideas into production-ready
+                    websites and apps.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- service section start here -->
+
+    <div class="service" id="service">
+        <h2 class="head-about">Services</h2>
+        <div class="lining service-lining"></div>
+
+        <div class="box">
+            <div class="card">
+                <i class="fas fa-code"></i>
+                <h5>Custom Websites</h5>
+                <div class="pra">
+                    <p>
+                        Responsive, fast and maintainable websites built with modern HTML, CSS and JavaScript.
+                    </p>
+                    <p style="text-align: center;">
+                        <a href="#" class="button">Read More</a>
+                    </p>
+                </div>
+            </div>
+
+            <div class="card">
+                <i class="fas fa-paint-brush"></i>
+                <h5>UI/UX Design</h5>
+                <div class="pra">
+                    <p>
+                        Thoughtful interface and interaction design that focuses on clarity and conversion.
+                    </p>
+                    <p style="text-align: center;">
+                        <a href="#" class="button">Read More</a>
+                    </p>
+                </div>
+            </div>
+
+            <div class="card">
+                <i class="fas fa-rocket"></i>
+                <h5>Performance Optimization</h5>
+                <div class="pra">
+                    <p>
+                        Improve load times, accessibility and SEO so your site reaches and retains more users.
+                    </p>
+                    <p style="text-align: center;">
+                        <a href="#" class="button">Read More</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- contact me -->
+    <div class="contact-me" id="contact">
+        <p>Let's build something great together</p>
+        <a class="button-two" href="mailto:felixdavid869@gmail.com" target="_blank">Hire Me</a>
+        <form class="contact-form" action="mailto:felixdavid869@gmail.com" method="post" enctype="text/plain">
+            <input type="email" name="email" placeholder="Your email address" aria-label="Your email">
+            <button type="submit" class="button-two">Get a Quote</button>
+        </form>
+    </div>
+
+    <!-- footer section -->
+    <footer>
+        <div class="container">
+            <p class="brand">David Felix — Web Developer</p>
+            <p class="muted">I create simple, scalable websites focused on performance and conversion.</p>
+
+            <div class="social">
+                <a href="#" class="fab fa-facebook-f" aria-label="Facebook"></a>
+                <a href="#" class="fab fa-instagram" aria-label="Instagram"></a>
+                <a href="#" class="fab fa-youtube" aria-label="YouTube"></a>
+                <a href="#" class="fab fa-twitter" aria-label="Twitter"></a>
+            </div>
+            <p class="end">Copyright &copy; David Felix</p>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+</body>
+
+<script>
+    // Simple mobile nav toggle
+    (function () {
+        const btn = document.querySelector('.menu-toggle');
+        const nav = document.querySelector('nav');
+        if (!btn || !nav) return;
+        btn.addEventListener('click', function () {
+            nav.classList.toggle('nav-open');
+        });
+    })();
+</script>
+
+</html>
